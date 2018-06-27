@@ -1,4 +1,4 @@
-[dev] 
-34.205.8.237 
-[dev:vars] 
-s3code=goodbyecubicle_edoc1115 
+[dev]
+<computed>
+[dev:vars]
+s3code=<name>_edoc1115
