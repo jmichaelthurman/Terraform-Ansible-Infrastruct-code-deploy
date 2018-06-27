@@ -1,17 +1,16 @@
 {
-    "Location": "https://route53.amazonaws.com/2013-04-01/delegationset/N1WHSFU75VP1OB",
+    "Location": "https://route53.amazonaws.com/2013-04-01/delegationset/<yours>",
     "DelegationSet": {
-        "Id": "/delegationset/N1WHSFU75VP1OB",
+        "Id": "/delegationset/<yours>",
         "CallerReference": "12345",
         "NameServers": [
-            "ns-437.awsdns-54.com",
-            "ns-862.awsdns-43.net",
-            "ns-2025.awsdns-61.co.uk",
-            "ns-1311.awsdns-35.org"
+            "ns-<yours>.awsdns-54.com",
+            "ns-<yours>.awsdns-43.net",
+            "ns-<yours>.awsdns-61.co.uk",
+            "ns-<yours>.awsdns-35.org"
         ]
     }
 }
 
 curl canhazip.com
-99.172.169.10
-
+<your-IP>
